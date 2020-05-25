@@ -66,7 +66,6 @@ body{
 .fa-shopping-cart{
     font-size: 30px;
     color:black;
-
 }
 .header2 .col-md-3 input::placeholder{
     font-size: small;
@@ -83,6 +82,7 @@ body{
     border-radius: inherit;
     background: #f5fafe;
 }
+
 
 /* Navigation section */
 .menu li{
@@ -109,6 +109,7 @@ body{
     text-decoration: none;
     color: #ec1f46;
 }
+
 
 /* first section */
 .first-section{
@@ -228,6 +229,7 @@ body{
     margin: 15px;
 }
 
+
 /* second section  */
 .second-section{
     background: #f5fafe;
@@ -241,7 +243,6 @@ body{
     border-bottom: 2px solid #ec1f46;
 }
 .nav{
-
     justify-content: space-between;
 }
 .nav-link {
@@ -307,7 +308,6 @@ body{
     background-size:contain;
     width: 100%;
 }
-
 .third-section .side-image{
     background: #0a223e;
     color: #fff;
@@ -357,6 +357,7 @@ body{
 .fourth-section{
     background: #f5fafe;
 }
+
 
 /* Newsletter Section */
 .news-section{
@@ -543,6 +544,7 @@ body{
 
 /* mobile responsiveness */
 @media (max-width: 1024px) {
+
     /* header */
     .header{
         background: #f5fafe;
@@ -574,13 +576,15 @@ body{
         border-radius: inherit;
         background: #f5fafe;
     }
-.cart{
-    padding: 1px 5px;
-    background: #ec1f46;
-    border-radius: 50%;
-    color:#fff;
-    font-size:14px;
-}
+    .cart{
+        padding: 1px 5px;
+        background: #ec1f46;
+        border-radius: 50%;
+        color:#fff;
+        font-size:14px;
+    }
+
+
     /* header 2 */
     .header2{
         display:none;
@@ -591,6 +595,7 @@ body{
     .menu{
         display:none;
     }
+
 
     /* first section */
     .first-section .rate {
@@ -605,10 +610,12 @@ body{
         align-items: flex-start;
     }
 
+
     /* second section */
     div#home {
         padding-left: 15px !important;
     }
+
 
     /* third section */
     .third-section .side-image2 {
@@ -642,6 +649,7 @@ body{
         color: #ec1f46;
     }
 
+    
     /* fifth-section */
     .fifth-section .row .ftd1, .fifth-section .row .ftd2, .fifth-section .row .ftd3, .fifth-section .row .ftd4 {
         width: auto;
